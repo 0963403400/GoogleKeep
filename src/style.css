@@ -1,0 +1,439 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    box-shadow: inset 0 -1px 0 0 #dadce0;
+}
+.FirstDivHeader
+{
+    padding: 8px;
+    display: flex;
+    height: 48px;
+
+
+}
+.hbdfhd
+{
+    width: 24px;
+    height: 24px;
+    border-radius:50% ;
+    padding: 12px;
+    align-items: center;
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.hbdfhd:hover{
+    background-color: rgba(60,64,67,0.08);
+}
+.All3soc
+{
+    display: flex;
+    min-width: 232px;
+    padding-right: 30px;
+}
+.hvsdja
+{
+    width: 40x;
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+}
+.djbfsd
+{
+    padding-left: 4px;
+
+  color: #5f6368;
+  opacity: 1;
+  display: inline-block;
+  font-family: 'Product Sans',Arial,sans-serif;
+  font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+  font-size: 13px;
+  line-height: 27px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  padding-left: 8px;
+  /* position: relative;
+  top: -19.5px; */
+  vertical-align: middle;
+    
+}
+.Beside3Soc
+{
+    position: relative;
+    top: 2px;
+    align-items: center;
+}
+.sssasasas
+{
+    display: flex;
+text-align: center;
+vertical-align: middle;
+outline: none;
+align-items: center;
+text-decoration: none;
+}
+.hsbjhvsdjh
+{
+    justify-content: flex-start;
+  
+  flex: 1 1 100%;
+  height: 48px;
+  vertical-align: middle;
+  white-space: nowrap;
+  -moz-box-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -moz-user-select: -moz-none;
+  /* justify-content: space-between; */
+}
+.DicChuaThanhSearch
+{
+    padding-right: 30px;
+  
+  flex: 1 1 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  flex: 1 1 auto;
+  height: 48px;
+  max-width: 720px;
+  max-width: 100%;
+}
+.hbfsbdfhb{
+    border-radius: 8px;
+    max-width: 720px;
+  background: #f1f3f4;
+  border: 1px solid transparent;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  height: 46px;
+  display: flex;
+}
+.hdv_TimKiem
+{
+    height: 46px;
+    width: 100%;
+    margin-left: 56px;
+    margin-right: 49px;
+    overflow: hidden;
+}
+.jhvhsdjbfd
+{height: 46px;
+    padding: 11px 0px;
+    background: transparent;
+    outline: none;
+    box-sizing: border-box;
+    color: black;
+    border: none;
+    font: normal 16px Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+      font-variant-ligatures: normal;
+    font-variant-ligatures: normal;
+    font-variant-ligatures: none;
+    width: 100%;
+}
+.ButtonRight
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+  border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: none;
+  cursor: pointer;
+}
+/* .ButtonRight:hover{
+    background: #e5ebf1;
+    opacity: 1;
+} */
+.ButtonLeft{
+    border-radius: 50%;
+    border: none;
+  cursor: pointer;
+  padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: none;
+    float: left;
+position: absolute;
+top: 0;
+}
+/* .ButtonLeft:hover{
+    background: #e5ebf1;
+    opacity: 1;
+} */
+.djfhsdh:hover{
+    background: #e5ebf1;
+    border-radius:50% ;
+}
+.refreshButton
+{
+
+}
+.DivChuaRefreshAnhSetting
+{
+    line-height: 0;
+    -moz-user-select: -moz-none;
+    white-space: nowrap;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+      line-height: 27px;
+    color: black;
+    display: flex;
+    position: static;
+}
+
+.refreshButton
+{
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 12px 12px ;
+
+}
+.jbsfha
+{
+    height: 24px;
+    width: 24px;
+
+}
+.refreshButton:hover{
+    background: #e5ebf1;
+    border-radius: 50%;
+}
+.LastDivInHeader
+{
+    height: 48px;
+    padding-left: 30px;
+    justify-content: flex-end;
+    display: flex;
+}
+.MainBody
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.LeftBody{
+    display: -webkit-box;
+display: -moz-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+flex-direction: row;
+height: -moz-calc(100% - 64px);
+height: calc(100% - 64px);
+min-width: 80px;
+}
+.InnerLeft
+{
+    min-width: 80px;
+
+}
+.InnerHaveMarginTop{
+    box-sizing: border-box;
+display: -webkit-box;
+display: -moz-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+flex-direction: column;
+height: -moz-calc(100% - 64px);
+height: calc(100% - 64px);
+min-height: auto;
+overflow: hidden;
+padding-top: 8px;
+position: fixed;
+top: 64px;
+transition-duration: 150ms;
+transition-property: width,box-shadow,border-radius;
+transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+width: 280px;
+z-index: 985;
+    transition-duration: 150ms;
+    transition-property: width,box-shadow,border-radius;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+    width: 80px;
+    background-color: #fff;
+
+}
+.sdbasb{
+    box-sizing: border-box;
+/* border: 1px solid transparent; */
+transition-duration: 150ms;
+transition-property: margin,width,padding,border-radius;
+transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+user-select: none;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 12px;
+  padding: 0;
+  display: flex;
+align-items: center;
+letter-spacing: .01785714em;
+font-family: 'Google Sans',Roboto,Arial,sans-serif;
+font-size: .875rem;
+font-weight: 500;
+line-height: 1.25rem;
+height: 48px;
+min-width: 48px;
+overflow: hidden;
+cursor: pointer;
+}
+.sdbasb:hover{
+    border-radius: 0 30px 30px 0;
+    background: #e5ebf1;
+    width: 100%;
+}
+.sdbasb:hover > span{
+    display: flex;
+}
+.hsbfhs
+{
+    fill: #5f6368;
+    flex-shrink: 0;
+    padding: 0 12px;
+    color: #202124;
+    letter-spacing: .01785714em;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 501;
+    line-height: 1.25rem;
+    cursor: pointer;
+    height: 24px;
+    width: 48px;
+    box-sizing: border-box;
+}
+.sdbasb span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 20px;
+    color: #202124;
+    letter-spacing: .01785714em;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 501;
+    line-height: 1.25rem;
+    cursor: pointer;
+}
+.InnerHaveMarginTop:hover{
+    width: 280px;
+    box-shadow: 0 4px 0 0;
+    height: 100%;
+}
+.RightBody
+{
+    display: block;
+    width: 100%;
+}
+.DivChuaNote
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 1532px; */
+    height: 1080px;
+}
+.InnerDivChuaNote
+{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    flex-wrap: wrap;
+    height: 1080px;
+    box-shadow: none;
+    /* justify-content: space-between; */
+    
+}
+.DivChuaDonRac
+{
+    width: 100%;
+}
+
+.InnerDivChuaDonRac
+{
+    padding-top: 24px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.InnerDivChuaDonRac h1
+{
+    color: #202124;
+    font-size: 17px;
+    font-style: italic;
+    font-style:'Roboto',arial,sans-serif;
+    font-weight: 500;
+}
+.gavhgAhgcv
+{
+    margin-left: 16px;
+    padding: 8px 24px 8px 24px;
+    cursor: pointer;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+
+}
+.gavhgAhgcv h1{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    letter-spacing: .01785714em;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    height: 20px;
+
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #1a73e8;
+    font-style: normal;
+
+}
+.gavhgAhgcv:hover
+{
+   background: #dadce0;
+
+}
+/* .hdhasda
+{
+    height: 300px;
+} */
+.css-1ps6pg7-MuiPaper-root
+{
+    box-shadow: none;
+}
+.hdhasda
+{
+    box-shadow: none;
+}
+.jhsdhadashdjahbsdj
+{
+    box-shadow: none;
+}
