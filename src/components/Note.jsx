@@ -1,8 +1,8 @@
 import React from 'react'
 import '../style2.css'
-import DiChuaChucNangPhuChoSave from './DiChuaChucNangPhuChoSave'
-import DivChuaChucNangPhu2 from './DivChuaChucNangPhu2'
-import DivChuaChucNangPhuChoXoa from './DivChuaChucNangPhuChoXoa'
+import AssistFunctionForSavenote from './AssistFunctionForSavenote'
+import AssistFunctionForNote from './AssistFunctionForNote'
+import AssistFunctionForDeleteNote from './AssistFunctionForDeleteNote'
 export default function Note({Title,Content,onDelete,id,onSave,Position,UnArchive}) {
 
   return (
@@ -17,17 +17,17 @@ export default function Note({Title,Content,onDelete,id,onSave,Position,UnArchiv
             {(()=>{
               if(Position=="Note"){
                 return(
-                <DivChuaChucNangPhu2 onDelete={onDelete} id={id}  onSave={onSave} />)
+                <AssistFunctionForNote onDelete={onDelete} id={id}  onSave={onSave} />)
               }
               else if(Position=="Delete")
               {
                 return (
-                <DivChuaChucNangPhuChoXoa onDelete={onDelete} id={id}   UnArchive={UnArchive} />)
+                <AssistFunctionForDeleteNote onDelete={onDelete} id={id}   UnArchive={UnArchive} />)
               }
               else
               {
                 return(
-                <DiChuaChucNangPhuChoSave  onDelete={onDelete} id={id}  onSave={onSave} />)
+                <AssistFunctionForSavenote  onDelete={onDelete} id={id}  onSave={onSave} />)
               }
             })()}
           

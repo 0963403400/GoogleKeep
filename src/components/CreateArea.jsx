@@ -7,7 +7,7 @@ import { MdOutlineColorLens } from 'react-icons/md';
 import { MdOutlineImage } from 'react-icons/md';
 import { HiOutlineSaveAs } from 'react-icons/hi';
 import { HiOutlineDotsVertical } from 'react-icons/hi';
-import DivChuaChucNangPhu from './DivChuaChucNangPhu'
+
 
 
 
